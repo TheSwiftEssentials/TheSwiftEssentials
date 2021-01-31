@@ -2,7 +2,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     /// Integer value from the string
     var int: Int? {
         Int(self)
